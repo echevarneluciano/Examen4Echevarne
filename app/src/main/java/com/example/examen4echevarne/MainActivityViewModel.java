@@ -28,6 +28,8 @@ public class MainActivityViewModel extends ViewModel {
         Notas.add(new Nota("Estudiar", "Estudiar moviles", "Alta", "10-10-2020"));
         Notas.add(new Nota("Rendir", "Rendir moviles", "Alta", "11-11-2023"));
         Notas.add(new Nota("Dormir","Dormir la ciesta", "Media", "12-12-2024"));
+        Notas.add(new Nota("Rendir punto net", "Rendir moviles", "Alta", "11-11-2023"));
+        Notas.add(new Nota("Dormir de nuevo","Dormir la ciesta", "Media", "12-12-2024"));
         lista.setValue(Notas);
     }
 }
